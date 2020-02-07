@@ -63,5 +63,4 @@ public class ShiroConfig {
         return cookieRememberMeManager;
     }
 
-
 }

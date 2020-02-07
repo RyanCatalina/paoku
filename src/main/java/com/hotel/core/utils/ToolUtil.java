@@ -573,7 +573,9 @@ public class ToolUtil {
 
     public static boolean equalBool(Integer integer) {
         Boolean flag = false;
-        if (integer != null) {
+        if (integer == -1) {
+            flag = false;
+        } else {
             flag = true;
         }
         return flag;

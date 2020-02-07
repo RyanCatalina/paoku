@@ -6,14 +6,14 @@ public interface MessageMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Message record);
+    int insert(Message message);
 
-    int insertSelective(Message record);
+    int insertSelective(Message message);
 
     Message selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Message record);
+    int updateByPrimaryKeySelective(Message message);
 
-    int updateByPrimaryKey(Message record);
+    int updateByPrimaryKey(Message message);
 
 }

@@ -22,7 +22,7 @@ class HotelApplicationTests {
 
     @Test
     void Encryption(){
-        System.out.println(Encryption.build("user","123456"));
+        System.out.println(Encryption.build("root","123456"));
     }
 
     @Test

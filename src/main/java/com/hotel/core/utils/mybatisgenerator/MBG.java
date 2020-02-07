@@ -22,4 +22,5 @@ public class MBG {
                 callback, warnings);
         myBatisGenerator.generate(null);
     }
+
 }

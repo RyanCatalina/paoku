@@ -9,6 +9,7 @@ public class BaseController {
 	
 	public static final Integer FLAG_SUCCESS = 0;// 请求响应成功
 	public static final Integer FLAG_FAILED = 500;// 请求响应失败
+	public static final Integer FLAG_NO_PERMISSION = 1000;// 请求无权限
 	
 	public Map<String, Object> getMap(){
 		return new HashMap<String, Object>();

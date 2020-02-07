@@ -6,14 +6,14 @@ public interface OpinionMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Opinion record);
+    int insert(Opinion opinion);
 
-    int insertSelective(Opinion record);
+    int insertSelective(Opinion opinion);
 
     Opinion selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Opinion record);
+    int updateByPrimaryKeySelective(Opinion opinion);
 
-    int updateByPrimaryKey(Opinion record);
+    int updateByPrimaryKey(Opinion opinion);
 
 }

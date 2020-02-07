@@ -14,7 +14,7 @@ public class RoleServiceImpl implements RoleService {
     @Autowired
     private RoleMapper roleMapper;
 
-    @Cacheable(value = "role",key = "#username")
+    @Cacheable(cacheNames = "role",key = "#username")
     @Override
     public Set<String> selectRoleNameByUsername(String username) {
         return roleMapper.selectRoleNameByUsername(username);

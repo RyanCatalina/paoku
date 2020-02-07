@@ -8,15 +8,15 @@ public interface PermissionMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Permission record);
+    int insert(Permission permission);
 
-    int insertSelective(Permission record);
+    int insertSelective(Permission permission);
 
     Permission selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Permission record);
+    int updateByPrimaryKeySelective(Permission permission);
 
-    int updateByPrimaryKey(Permission record);
+    int updateByPrimaryKey(Permission permission);
 
     //查询所有资源权限
     List<Permission> selectPermissionBySortAsc();

@@ -6,14 +6,14 @@ public interface UserRoomMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserRoom record);
+    int insert(UserRoom userRoom);
 
-    int insertSelective(UserRoom record);
+    int insertSelective(UserRoom userRoom);
 
     UserRoom selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(UserRoom record);
+    int updateByPrimaryKeySelective(UserRoom userRoom);
 
-    int updateByPrimaryKey(UserRoom record);
+    int updateByPrimaryKey(UserRoom userRoom);
 
 }

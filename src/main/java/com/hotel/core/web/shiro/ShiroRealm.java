@@ -40,13 +40,16 @@ public class ShiroRealm extends AuthorizingRealm {
         //得到输入的用户名
         String username = usernamePasswordToken.getUsername();
         //根据用户名查询用户
-        Users users = usersService.selectByUsername(username);
+        Users users = usersService.selectUserByUsername(username);
         //如果用户不存在 抛出UnknownAccountException异常
         if (users == null) {
             throw new UnknownAccountException("用户不存在");
         }
         //如果用户被锁定 抛出LockedAccountException异常
-        if (users.getStates() == 0){
+        if (users.getStates() == 2){
+            throw new LockedAccountException("用户被回收");
+        }
+        if (users.getStates() == 3){
             throw new LockedAccountException("用户被锁定");
         }
         Object principal = username;//数据库中的用户名

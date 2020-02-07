@@ -51,7 +51,7 @@ public class FileUploadTool {
             System.out.println("文件为空");
         }
         if (bflag) {
-            String logoPathDir = "/upload/";
+            String logoPathDir = "/file/";
             String logoRealPathDir = request.getSession().getServletContext().getRealPath(logoPathDir);
             File logoSaveFile = new File(logoRealPathDir);
             if (!logoSaveFile.exists()) {

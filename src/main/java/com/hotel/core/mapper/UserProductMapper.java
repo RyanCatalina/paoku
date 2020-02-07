@@ -6,14 +6,14 @@ public interface UserProductMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserProduct record);
+    int insert(UserProduct userProduct);
 
-    int insertSelective(UserProduct record);
+    int insertSelective(UserProduct userProduct);
 
     UserProduct selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(UserProduct record);
+    int updateByPrimaryKeySelective(UserProduct userProduct);
 
-    int updateByPrimaryKey(UserProduct record);
+    int updateByPrimaryKey(UserProduct userProduct);
 
 }

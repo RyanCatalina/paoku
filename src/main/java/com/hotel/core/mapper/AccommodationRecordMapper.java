@@ -6,14 +6,14 @@ public interface AccommodationRecordMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(AccommodationRecord record);
+    int insert(AccommodationRecord accommodationRecord);
 
-    int insertSelective(AccommodationRecord record);
+    int insertSelective(AccommodationRecord accommodationRecord);
 
     AccommodationRecord selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(AccommodationRecord record);
+    int updateByPrimaryKeySelective(AccommodationRecord accommodationRecord);
 
-    int updateByPrimaryKey(AccommodationRecord record);
+    int updateByPrimaryKey(AccommodationRecord accommodationRecord);
 
 }

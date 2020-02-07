@@ -1,4 +1,5 @@
 package com.hotel.core.utils.uploadfile;
+
 import java.sql.Timestamp;
 
 public class FileEntity {

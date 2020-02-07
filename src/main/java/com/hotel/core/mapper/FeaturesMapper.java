@@ -6,14 +6,14 @@ public interface FeaturesMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Features record);
+    int insert(Features features);
 
-    int insertSelective(Features record);
+    int insertSelective(Features features);
 
     Features selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Features record);
+    int updateByPrimaryKeySelective(Features features);
 
-    int updateByPrimaryKey(Features record);
+    int updateByPrimaryKey(Features features);
 
 }

@@ -6,14 +6,14 @@ public interface RoomMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Room record);
+    int insert(Room room);
 
-    int insertSelective(Room record);
+    int insertSelective(Room room);
 
     Room selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Room record);
+    int updateByPrimaryKeySelective(Room room);
 
-    int updateByPrimaryKey(Room record);
+    int updateByPrimaryKey(Room room);
 
 }

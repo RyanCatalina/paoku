@@ -6,14 +6,14 @@ public interface UserRoleMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserRole record);
+    int insert(UserRole userRole);
 
-    int insertSelective(UserRole record);
+    int insertSelective(UserRole userRole);
 
     UserRole selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(UserRole record);
+    int updateByPrimaryKeySelective(UserRole userRole);
 
-    int updateByPrimaryKey(UserRole record);
+    int updateByPrimaryKey(UserRole userRole);
 
 }

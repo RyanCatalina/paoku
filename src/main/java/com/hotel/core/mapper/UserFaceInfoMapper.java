@@ -6,14 +6,14 @@ public interface UserFaceInfoMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserFaceInfo record);
+    int insert(UserFaceInfo userFaceInfo);
 
-    int insertSelective(UserFaceInfo record);
+    int insertSelective(UserFaceInfo userFaceInfo);
 
     UserFaceInfo selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(UserFaceInfo record);
+    int updateByPrimaryKeySelective(UserFaceInfo userFaceInfo);
 
-    int updateByPrimaryKey(UserFaceInfo record);
+    int updateByPrimaryKey(UserFaceInfo userFaceInfo);
 
 }

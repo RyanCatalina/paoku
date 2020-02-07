@@ -6,14 +6,14 @@ public interface FitnessMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Fitness record);
+    int insert(Fitness fitness);
 
-    int insertSelective(Fitness record);
+    int insertSelective(Fitness fitness);
 
     Fitness selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Fitness record);
+    int updateByPrimaryKeySelective(Fitness fitness);
 
-    int updateByPrimaryKey(Fitness record);
+    int updateByPrimaryKey(Fitness fitness);
 
 }

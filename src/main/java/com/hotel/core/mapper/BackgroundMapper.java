@@ -6,14 +6,14 @@ public interface BackgroundMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Background record);
+    int insert(Background background);
 
-    int insertSelective(Background record);
+    int insertSelective(Background background);
 
     Background selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Background record);
+    int updateByPrimaryKeySelective(Background background);
 
-    int updateByPrimaryKey(Background record);
+    int updateByPrimaryKey(Background background);
 
 }

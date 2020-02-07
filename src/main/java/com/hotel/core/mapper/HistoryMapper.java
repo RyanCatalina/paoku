@@ -6,14 +6,14 @@ public interface HistoryMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(History record);
+    int insert(History history);
 
-    int insertSelective(History record);
+    int insertSelective(History history);
 
     History selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(History record);
+    int updateByPrimaryKeySelective(History history);
 
-    int updateByPrimaryKey(History record);
+    int updateByPrimaryKey(History history);
 
 }

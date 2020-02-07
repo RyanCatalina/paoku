@@ -6,14 +6,14 @@ public interface RestaurantMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Restaurant record);
+    int insert(Restaurant restaurant);
 
-    int insertSelective(Restaurant record);
+    int insertSelective(Restaurant restaurant);
 
     Restaurant selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Restaurant record);
+    int updateByPrimaryKeySelective(Restaurant restaurant);
 
-    int updateByPrimaryKey(Restaurant record);
+    int updateByPrimaryKey(Restaurant restaurant);
 
 }

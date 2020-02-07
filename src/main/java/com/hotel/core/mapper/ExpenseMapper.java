@@ -6,14 +6,14 @@ public interface ExpenseMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Expense record);
+    int insert(Expense expense);
 
-    int insertSelective(Expense record);
+    int insertSelective(Expense expense);
 
     Expense selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Expense record);
+    int updateByPrimaryKeySelective(Expense expense);
 
-    int updateByPrimaryKey(Expense record);
+    int updateByPrimaryKey(Expense expense);
 
 }

@@ -6,14 +6,14 @@ public interface CouponMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Coupon record);
+    int insert(Coupon coupon);
 
-    int insertSelective(Coupon record);
+    int insertSelective(Coupon coupon);
 
     Coupon selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Coupon record);
+    int updateByPrimaryKeySelective(Coupon coupon);
 
-    int updateByPrimaryKey(Coupon record);
+    int updateByPrimaryKey(Coupon coupon);
 
 }

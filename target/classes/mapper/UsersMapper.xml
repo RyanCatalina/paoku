@@ -371,4 +371,33 @@
     FROM users
     WHERE username = #{username,jdbcType=VARCHAR}
   </select>
+  <select id="selectUserListByLimit" resultMap="BaseResultMap" parameterType="map">
+    SELECT
+    <include refid="Base_Column_List"></include>
+    FROM users
+    <where>
+      <if test="states != null and states != ''">
+        and states = #{states,jdbcType=INTEGER}
+      </if>
+    </where>
+    LIMIT #{pages,jdbcType=INTEGER},#{limit,jdbcType=INTEGER}
+  </select>
+  <select id="selectCounts" resultType="int" parameterType="java.lang.Integer">
+    SELECT count(*)
+    from users
+    <where>
+      <if test="states != null and states != ''">
+        and states = #{states,jdbcType=INTEGER}
+      </if>
+    </where>
+  </select>
+  <update id="updateUserByStates" parameterType="com.hotel.core.entity.Users">
+    UPDATE users
+    <set>
+      <if test="states != null and states != ''">
+        states = #{states,jdbcType=INTEGER}
+      </if>
+    </set>
+    WHERE id = #{id,jdbcType=INTEGER}
+  </update>
 </mapper>

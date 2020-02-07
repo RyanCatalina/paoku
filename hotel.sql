@@ -11,7 +11,7 @@
  Target Server Version : 50728
  File Encoding         : 65001
 
- Date: 04/02/2020 19:50:58
+ Date: 06/02/2020 20:10:47
 */
 
 SET NAMES utf8mb4;
@@ -51,7 +51,7 @@ CREATE TABLE `background`  (
   `modifier_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modifier_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -72,7 +72,7 @@ CREATE TABLE `copyright`  (
   `modifier_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modifier_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -94,8 +94,8 @@ CREATE TABLE `coupon`  (
   `service_conditions` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '使用条件',
   `get_date` datetime(0) NULL DEFAULT NULL COMMENT '领取日期',
   `expiration_date` datetime(0) NULL DEFAULT NULL COMMENT '到期日期',
-  `coupon_states` int(11) NULL DEFAULT NULL COMMENT '优惠券状态(0=过期,1=正常)',
-  `usage_states` int(11) NULL DEFAULT NULL COMMENT '使用状态(0=已使用,1=未使用)',
+  `coupon_states` int(11) NULL DEFAULT NULL COMMENT '优惠券状态(1=未使用,2=已使用)',
+  `usage_states` int(11) NULL DEFAULT NULL COMMENT '使用状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -136,7 +136,7 @@ CREATE TABLE `features`  (
   `modifier_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modifier_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -160,8 +160,8 @@ CREATE TABLE `fitness`  (
   `modifier_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modifier_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `equipment_states` int(11) NULL DEFAULT NULL COMMENT '器材状态(0=维修,1=正常)',
-  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `equipment_states` int(11) NULL DEFAULT NULL COMMENT '器材状态(1=正常,2=维修)',
+  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -182,7 +182,7 @@ CREATE TABLE `history`  (
   `modifier_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modifier_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0删除,1正常)',
+  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -200,7 +200,7 @@ CREATE TABLE `message`  (
   `theme` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '主题',
   `content` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '内容',
   `time` datetime(0) NULL DEFAULT NULL COMMENT '时间',
-  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -218,7 +218,7 @@ CREATE TABLE `opinion`  (
   `problem_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '问题类型',
   `problem_description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '问题描述',
   `feedback_time` datetime(0) NULL DEFAULT NULL COMMENT '反馈时间',
-  `dispose_states` int(11) NULL DEFAULT NULL COMMENT '处理状态(0=未处理,1=已处理)',
+  `dispose_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -242,7 +242,7 @@ CREATE TABLE `permission`  (
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 11 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of permission
@@ -256,7 +256,10 @@ INSERT INTO `permission` VALUES (6, 'user页面', 'user用户的页面', '/user.
 INSERT INTO `permission` VALUES (7, 'root_list页面', '具备root,admin,user角色才能访问', '/rootList.html', 'roles[root,admin,user]', NULL, 7, 1, NULL, NULL, NULL);
 INSERT INTO `permission` VALUES (8, 'admin_list页面', '具备admin,user角色才能访问', '/adminList.html', 'roles[admin,user]', NULL, 8, 1, NULL, NULL, NULL);
 INSERT INTO `permission` VALUES (9, 'user_list', '具备user角色才能访问', '/userList.html', 'roles[user]', NULL, 9, 1, NULL, NULL, NULL);
-INSERT INTO `permission` VALUES (10, '所有请求', '所有请求都需要认证才能访问', '/**', 'authc', NULL, 999, 1, NULL, NULL, NULL);
+INSERT INTO `permission` VALUES (10, '查询请求', '前端可访问的请求', '/select/**', 'anon', NULL, 10, 1, NULL, NULL, NULL);
+INSERT INTO `permission` VALUES (11, '用户注册', '前端用户注册请求', '/register', 'anon', NULL, 11, 1, NULL, NULL, NULL);
+INSERT INTO `permission` VALUES (12, '静态资源', '开放的静态资源', '/file/**', 'anon', NULL, 12, 1, NULL, NULL, NULL);
+INSERT INTO `permission` VALUES (13, '所有请求', '所有请求都需要认证才能访问', '/**', 'authc', NULL, 999, 1, NULL, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for product
@@ -277,8 +280,8 @@ CREATE TABLE `product`  (
   `modifier_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modifier_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `product_instock` int(11) NULL DEFAULT NULL COMMENT '是否有货(0=无货,1=有货)',
-  `product_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `product_instock` int(11) NULL DEFAULT NULL COMMENT '是否有货(1=有货,2=无货)',
+  `product_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -303,8 +306,8 @@ CREATE TABLE `restaurant`  (
   `modifier_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modifier_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `food_instock` int(11) NULL DEFAULT NULL COMMENT '是否有货(0=无货,1=有货)',
-  `food_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `food_instock` int(11) NULL DEFAULT NULL COMMENT '是否有货(1=有货,2=无货)',
+  `food_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -320,7 +323,7 @@ CREATE TABLE `role`  (
   `role_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '角色名称',
   `role_description` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '角色描述',
   `role_sort` int(11) NULL DEFAULT NULL COMMENT '角色排序',
-  `role_states` int(11) NULL DEFAULT NULL COMMENT '角色状态(0=删除,1=正常)',
+  `role_states` int(11) NULL DEFAULT NULL COMMENT '角色状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -373,8 +376,8 @@ CREATE TABLE `room`  (
   `modify_id` int(11) NULL DEFAULT NULL COMMENT '修改人id',
   `modify_username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '修改人用户名',
   `modify_time` datetime(0) NULL DEFAULT NULL COMMENT '修改时间',
-  `room_states` int(11) NULL DEFAULT NULL COMMENT '房间状态(0=无人,1=有人,2=已预定)',
-  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(0=删除,1=正常)',
+  `room_states` int(11) NULL DEFAULT NULL COMMENT '房间状态(1=有人,2=无人,3=已预定)',
+  `exist_states` int(11) NULL DEFAULT NULL COMMENT '存在状态(1=正常,2=删除)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -422,8 +425,8 @@ CREATE TABLE `user_product`  (
   `product_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '商品名',
   `product_price` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '商品价格',
   `order_time` datetime(0) NULL DEFAULT NULL COMMENT '下单时间',
-  `order_overdue_states` int(11) NULL DEFAULT NULL COMMENT '订单是否过期(0=过期,1=正常)',
-  `order_states` int(11) NULL DEFAULT NULL COMMENT '订单状态(0=未支付,1=已支付)',
+  `order_overdue_states` int(11) NULL DEFAULT NULL COMMENT '订单是否过期(1=正常,2=过期)',
+  `order_states` int(11) NULL DEFAULT NULL COMMENT '订单状态(1=已支付,2=未支付)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -468,8 +471,8 @@ CREATE TABLE `user_room`  (
   `room_type` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '房间类型',
   `room_price` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '房间价格',
   `order_time` datetime(0) NULL DEFAULT NULL COMMENT '下单时间',
-  `order_overdue_states` int(11) NULL DEFAULT NULL COMMENT '订单是否过期(0=过期,1=正常)',
-  `order_states` int(11) NULL DEFAULT NULL COMMENT '订单状态(0=未支付,1=已支付)',
+  `order_overdue_states` int(11) NULL DEFAULT NULL COMMENT '订单是否过期(1=正常,2=过期)',
+  `order_states` int(11) NULL DEFAULT NULL COMMENT '订单状态(1=已支付,2=未支付)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
@@ -505,18 +508,18 @@ CREATE TABLE `users`  (
   `membership_score` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '会员积分',
   `membership_level` int(11) NULL DEFAULT NULL COMMENT '会员等级',
   `realname_authentication_states` int(11) NULL DEFAULT NULL COMMENT '实名认证(0=未认证,1=已认证)',
-  `states` int(11) NULL DEFAULT NULL COMMENT '用户状态(0=删除,1=正常,2=黑名单,3=锁定)',
+  `states` int(11) NULL DEFAULT NULL COMMENT '用户状态(1=正常,2=删除,3=锁定,999=隐藏账户)',
   `test1` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test2` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `test3` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `username`(`username`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES (1, 'root', 'd57e3867a8e25cc04a7c801914dba3a22bbe6e97196454105c09a73f00f10d3a', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1, NULL, NULL, NULL);
+INSERT INTO `users` VALUES (1, 'root', 'd57e3867a8e25cc04a7c801914dba3a22bbe6e97196454105c09a73f00f10d3a', '', '', '', '', '', '', NULL, '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 999, NULL, NULL, NULL);
 INSERT INTO `users` VALUES (2, 'admin', '8b64db1b8cb9f9c2b2ae41c65b7f2c4b1456f68dd1235b8527234fae5e40bce5', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1, NULL, NULL, NULL);
 INSERT INTO `users` VALUES (3, 'user', '73d3b6cfc9d611fcd7744a97ed693d1c7b8b64c23587bcc6a4151ccae4bbea5a', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1, NULL, NULL, NULL);
 

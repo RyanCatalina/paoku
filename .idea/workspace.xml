@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfce0f2f-d3a3-4541-a45f-e3369af6edc3" name="Default Changelist" comment="" />
+    <list default="true" id="bfce0f2f-d3a3-4541-a45f-e3369af6edc3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/hotel.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/AccommodationRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/AccommodationRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/BackgroundMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/BackgroundMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/CopyrightMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/CopyrightMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/CouponMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/CouponMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/ExpenseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/ExpenseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/FeaturesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/FeaturesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/FitnessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/FitnessMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/HistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/HistoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/MessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/MessageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/OpinionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/OpinionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/PermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/PermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RestaurantMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RestaurantMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RolePermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RolePermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/RoomMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserFaceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserFaceInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserRoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UserRoomMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/mapper/UsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/service/serviceimpl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/service/serviceimpl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/service/serviceimpl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/service/serviceimpl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/ToolUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/ToolUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/mybatisgenerator/MBG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/mybatisgenerator/MBG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/uploadfile/FileEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/uploadfile/FileEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/uploadfile/FileUploadTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/utils/uploadfile/FileUploadTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotel/core/web/shiro/ShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotel/core/web/shiro/ShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hotel/core/HotelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hotel/core/HotelApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/AccommodationRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/AccommodationRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/BackgroundMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/BackgroundMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/CopyrightMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/CopyrightMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/CouponMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/CouponMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/ExpenseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/ExpenseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/FeaturesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/FeaturesMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/FitnessMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/FitnessMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/HistoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/HistoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/MessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/MessageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/OpinionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/OpinionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/PermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/PermissionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RestaurantMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RestaurantMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RolePermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RolePermissionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RoomMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/RoomMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserFaceInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserFaceInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserRoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserRoomMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UserRoomMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UsersMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/mapper/UsersMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/service/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/service/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/service/serviceimpl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/service/serviceimpl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/service/serviceimpl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/service/serviceimpl/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/ToolUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/ToolUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/uploadfile/FileEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/uploadfile/FileEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/uploadfile/FileUploadTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/utils/uploadfile/FileUploadTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/web/controller/selectcontroller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotel/core/web/shiro/ShiroRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotel/core/web/shiro/ShiroRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hotel/core/HotelApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hotel/core/HotelApplicationTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +107,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XHc0TF6QBfDXaPTtUA1BtajJMU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,9 +131,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hotel.core.web.controller.ExceptionController" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\hotel\src\main\java\com\hotel\core\utils" />
       <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\hotel\src\main\java\com\hotel\core\utils\uploadfile" />
@@ -71,7 +144,23 @@
       <recent name="D:\IntelliJ IDEA 2019.3\Intellij IDEA\hotel" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.HotelApplication">
+    <configuration name="HotelApplicationTests.Encryption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hotel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotel.core" />
+      <option name="MAIN_CLASS_NAME" value="com.hotel.core.HotelApplicationTests" />
+      <option name="METHOD_NAME" value="Encryption" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HotelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hotel" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hotel.core.HotelApplication" />
@@ -80,6 +169,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HotelApplicationTests.Encryption" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -132,6 +226,50 @@
       <workItem from="1580813169941" duration="482000" />
       <workItem from="1580815861769" duration="932000" />
       <workItem from="1580816798402" duration="220000" />
+      <workItem from="1580817454702" duration="308000" />
+      <workItem from="1580817766014" duration="17000" />
+      <workItem from="1580818286128" duration="87000" />
+      <workItem from="1580821146975" duration="51000" />
+      <workItem from="1580824006825" duration="778000" />
+      <workItem from="1580884184390" duration="5042000" />
+      <workItem from="1580889497402" duration="891000" />
+      <workItem from="1580890415029" duration="3920000" />
+      <workItem from="1580895033081" duration="145000" />
+      <workItem from="1580895180798" duration="1287000" />
+      <workItem from="1580896624983" duration="221000" />
+      <workItem from="1580896860850" duration="2519000" />
+      <workItem from="1580899385106" duration="965000" />
+      <workItem from="1580900370785" duration="406000" />
+      <workItem from="1580900787929" duration="195000" />
+      <workItem from="1580900984645" duration="20000" />
+      <workItem from="1580901006159" duration="13000" />
+      <workItem from="1580901021812" duration="265000" />
+      <workItem from="1580901288570" duration="2532000" />
+      <workItem from="1580904036951" duration="4267000" />
+      <workItem from="1580908309792" duration="206000" />
+      <workItem from="1580908518390" duration="3383000" />
+      <workItem from="1580911930335" duration="180000" />
+      <workItem from="1580912112690" duration="1453000" />
+      <workItem from="1580913567420" duration="4093000" />
+      <workItem from="1580917665641" duration="1861000" />
+      <workItem from="1580966089582" duration="3782000" />
+      <workItem from="1580970180465" duration="1849000" />
+      <workItem from="1580972037027" duration="511000" />
+      <workItem from="1580972550633" duration="795000" />
+      <workItem from="1580973349464" duration="254000" />
+      <workItem from="1580973605802" duration="8911000" />
+      <workItem from="1580982526822" duration="3000" />
+      <workItem from="1580982532789" duration="2039000" />
+      <workItem from="1580984575170" duration="1914000" />
+      <workItem from="1580986763176" duration="638000" />
+      <workItem from="1580987403544" duration="2096000" />
+      <workItem from="1580989503547" duration="707000" />
+      <workItem from="1580990293268" duration="706000" />
+      <workItem from="1580991103628" duration="7000" />
+      <workItem from="1580991113471" duration="963000" />
+      <workItem from="1581070652651" duration="45000" />
+      <workItem from="1581070699660" duration="40000" />
+      <workItem from="1581071591206" duration="1000" />
     </task>
     <servers />
   </component>
@@ -143,85 +281,97 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580706707595" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580811205381">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580975086502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580811205381" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1580717429722">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580975086502" />
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580987197487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580717429722" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1581070976881">
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580987197487" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1580985301340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581070976881" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1580816793786">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580985301340" />
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580901037352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793786" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1580816793786">
+    <state x="739" y="378" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1580901037352" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1581070686321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793786" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1580816793786">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581070686321" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793786" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1580816793786">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793786" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1580816793787">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793787" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1580816793786">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793786" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1580816793786">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793786" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1580816793787">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816793787" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1580811668595">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580811668595" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1580811668595">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580811668595" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1580811668595">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1580989501193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580811668595" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1580811668595">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501193" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1580989501193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580811668595" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1580794172008">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501193" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1580989501192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580794172008" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501192" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1580989501193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580989501193" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1581070705269">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581070705269" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1580711880938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1580711880938" />
-    <state x="499" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580811662831">
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1580976983179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="499" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1580811662831" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1580734716483">
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1580976983179" />
+    <state x="499" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580919323644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580734716483" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580712740209">
+    <state x="499" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1580919323644" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1580917687526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580712740209" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580917687526" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580904288918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580904288918" />
   </component>
 </project>

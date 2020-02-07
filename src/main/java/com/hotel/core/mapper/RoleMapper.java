@@ -9,15 +9,15 @@ public interface RoleMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Role record);
+    int insert(Role role);
 
-    int insertSelective(Role record);
+    int insertSelective(Role role);
 
     Role selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Role record);
+    int updateByPrimaryKeySelective(Role role);
 
-    int updateByPrimaryKey(Role record);
+    int updateByPrimaryKey(Role role);
 
     //根据用户名查询用户角色
     @Select("SELECT r.role_name FROM users u" +

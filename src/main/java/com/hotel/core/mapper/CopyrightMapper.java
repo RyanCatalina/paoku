@@ -6,14 +6,14 @@ public interface CopyrightMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(Copyright record);
+    int insert(Copyright copyright);
 
-    int insertSelective(Copyright record);
+    int insertSelective(Copyright copyright);
 
     Copyright selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(Copyright record);
+    int updateByPrimaryKeySelective(Copyright copyright);
 
-    int updateByPrimaryKey(Copyright record);
+    int updateByPrimaryKey(Copyright copyright);
 
 }

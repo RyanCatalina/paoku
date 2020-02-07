@@ -6,14 +6,14 @@ public interface RolePermissionMapper {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(RolePermission record);
+    int insert(RolePermission rolePermission);
 
-    int insertSelective(RolePermission record);
+    int insertSelective(RolePermission rolePermission);
 
     RolePermission selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(RolePermission record);
+    int updateByPrimaryKeySelective(RolePermission rolePermission);
 
-    int updateByPrimaryKey(RolePermission record);
+    int updateByPrimaryKey(RolePermission rolePermission);
 
 }
