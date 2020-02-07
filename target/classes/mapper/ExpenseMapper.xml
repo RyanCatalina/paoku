@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hotel.core.mapper.ExpenseMapper">
+  <resultMap id="BaseResultMap" type="com.hotel.core.entity.Expense">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="consumption_type" jdbcType="VARCHAR" property="consumptionType" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="quantity" jdbcType="VARCHAR" property="quantity" />
+    <result column="trading_manner" jdbcType="VARCHAR" property="tradingManner" />
+    <result column="transaction_amount" jdbcType="VARCHAR" property="transactionAmount" />
+    <result column="consumption_date" jdbcType="TIMESTAMP" property="consumptionDate" />
+    <result column="test1" jdbcType="VARCHAR" property="test1" />
+    <result column="test2" jdbcType="VARCHAR" property="test2" />
+    <result column="test3" jdbcType="VARCHAR" property="test3" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, user_id, username, consumption_type, product_name, quantity, trading_manner, 
+    transaction_amount, consumption_date, test1, test2, test3
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from expense
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from expense
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.hotel.core.entity.Expense">
+    insert into expense (id, user_id, username, 
+      consumption_type, product_name, quantity, 
+      trading_manner, transaction_amount, consumption_date, 
+      test1, test2, test3
+      )
+    values (#{id,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, 
+      #{consumptionType,jdbcType=VARCHAR}, #{productName,jdbcType=VARCHAR}, #{quantity,jdbcType=VARCHAR}, 
+      #{tradingManner,jdbcType=VARCHAR}, #{transactionAmount,jdbcType=VARCHAR}, #{consumptionDate,jdbcType=TIMESTAMP}, 
+      #{test1,jdbcType=VARCHAR}, #{test2,jdbcType=VARCHAR}, #{test3,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.hotel.core.entity.Expense">
+    insert into expense
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="consumptionType != null">
+        consumption_type,
+      </if>
+      <if test="productName != null">
+        product_name,
+      </if>
+      <if test="quantity != null">
+        quantity,
+      </if>
+      <if test="tradingManner != null">
+        trading_manner,
+      </if>
+      <if test="transactionAmount != null">
+        transaction_amount,
+      </if>
+      <if test="consumptionDate != null">
+        consumption_date,
+      </if>
+      <if test="test1 != null">
+        test1,
+      </if>
+      <if test="test2 != null">
+        test2,
+      </if>
+      <if test="test3 != null">
+        test3,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="consumptionType != null">
+        #{consumptionType,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="quantity != null">
+        #{quantity,jdbcType=VARCHAR},
+      </if>
+      <if test="tradingManner != null">
+        #{tradingManner,jdbcType=VARCHAR},
+      </if>
+      <if test="transactionAmount != null">
+        #{transactionAmount,jdbcType=VARCHAR},
+      </if>
+      <if test="consumptionDate != null">
+        #{consumptionDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="test1 != null">
+        #{test1,jdbcType=VARCHAR},
+      </if>
+      <if test="test2 != null">
+        #{test2,jdbcType=VARCHAR},
+      </if>
+      <if test="test3 != null">
+        #{test3,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hotel.core.entity.Expense">
+    update expense
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="consumptionType != null">
+        consumption_type = #{consumptionType,jdbcType=VARCHAR},
+      </if>
+      <if test="productName != null">
+        product_name = #{productName,jdbcType=VARCHAR},
+      </if>
+      <if test="quantity != null">
+        quantity = #{quantity,jdbcType=VARCHAR},
+      </if>
+      <if test="tradingManner != null">
+        trading_manner = #{tradingManner,jdbcType=VARCHAR},
+      </if>
+      <if test="transactionAmount != null">
+        transaction_amount = #{transactionAmount,jdbcType=VARCHAR},
+      </if>
+      <if test="consumptionDate != null">
+        consumption_date = #{consumptionDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="test1 != null">
+        test1 = #{test1,jdbcType=VARCHAR},
+      </if>
+      <if test="test2 != null">
+        test2 = #{test2,jdbcType=VARCHAR},
+      </if>
+      <if test="test3 != null">
+        test3 = #{test3,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hotel.core.entity.Expense">
+    update expense
+    set user_id = #{userId,jdbcType=INTEGER},
+      username = #{username,jdbcType=VARCHAR},
+      consumption_type = #{consumptionType,jdbcType=VARCHAR},
+      product_name = #{productName,jdbcType=VARCHAR},
+      quantity = #{quantity,jdbcType=VARCHAR},
+      trading_manner = #{tradingManner,jdbcType=VARCHAR},
+      transaction_amount = #{transactionAmount,jdbcType=VARCHAR},
+      consumption_date = #{consumptionDate,jdbcType=TIMESTAMP},
+      test1 = #{test1,jdbcType=VARCHAR},
+      test2 = #{test2,jdbcType=VARCHAR},
+      test3 = #{test3,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

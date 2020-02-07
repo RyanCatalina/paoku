@@ -1,0 +1,38 @@
+#server配置
+server:
+  port: 8088
+  servlet:
+    context-path: /hotel
+
+#日志输出等级
+logging:
+  level:
+    root: info
+
+spring:
+  #mysql连接
+  datasource:
+    url: jdbc:mysql://localhost:3306/hotel?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #redis连接
+  redis:
+    host: 192.168.0.108
+    port: 6379
+  #启用缓存
+  cache:
+    type: redis
+
+mybatis:
+  #开启驼峰命名匹配规则
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.hotel.core.entity
+
+#shiro配置访问路径
+shiro:
+  loginUrl: /login
+  successUrl: /success
+  unauthorizedUrl: /unauthorized
